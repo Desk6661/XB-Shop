@@ -1,0 +1,27 @@
+@media only screen and (max-width: 596px) {
+    
+    .nav-ul li {
+        display: none !important;
+    }
+
+    .first-section h1{
+        font-size: 55px;
+    }
+    
+    .third-section h1 {
+        font-size: 40px;
+    }
+
+    .fourth-img-con img {
+        width: 60% !important;
+        top: 40% !important;
+    }
+
+    .footer {
+        height: 600px;
+    }
+
+    .footer-link-con {
+        height: 350px;
+    }
+}
