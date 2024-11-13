@@ -8,6 +8,7 @@
 
 .main{
     background-color: rgba(36,34,48,255);
+    overflow: hidden;
 }
 .h-100{
     height: 100%;
