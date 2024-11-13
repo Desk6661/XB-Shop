@@ -3,6 +3,9 @@
     .nav-ul li {
         display: none !important;
     }
+    .nav-icons i {
+        display: none !important;
+    }
 
     .first-section h1{
         font-size: 55px;
