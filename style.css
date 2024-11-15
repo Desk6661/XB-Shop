@@ -4,6 +4,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 .main{
@@ -36,6 +37,9 @@
 .logo p{
     color: white;
     font-family: "Kode Mono", serif;
+}
+nav ul li {
+    list-style: none;
 }
 
 nav ul li a {
@@ -251,7 +255,7 @@ nav .nav-icons button:hover {
     border: 4px solid rgb(134, 243, 251);
     color: white;
     backdrop-filter: blur(8px);
-    box-shadow: 0 1px 30px black;
+    box-shadow: 0 3px 10px 0 black;
     z-index: 2;
 }
 .fourth-inner h1{
@@ -283,34 +287,59 @@ nav .nav-icons button:hover {
     transition: .1s all linear;
 }
 
-
-.footer{
-    height: 300px;
+.footer {
+    width: 100%;
+    height: 50vh;
 }
 
-.footer-box{
+.footer-top {
+    height: 50px;
+}
+.footer-top div{
+    width: 100%;
+    padding: 0;
+    height: 2px; 
+    position: absolute;
+    color: var(--purple);
+    background-color: var(--purple);
+}
+.footer-top button {
+    border: 2px solid var(--purple);
+    padding: 8px 16px;
+    position: relative;
+    /* z-index: 1; */
     display: flex;
-    
+    align-items: center;
+    gap: 5px;
+    color: white;
+    background-color: rgba(36,34,48,255);
+    border-radius: 30px;
+}
+.footer-top button span {
+    color: var(--purple);
 }
 
-.footer-inner{
-    display: flex;
-    align-items: end;
+.footer-con {
     height: 100%;
 }
 
-.footer-logo h1 {
-    color: rgba(149,134,251,255);
-    font-size: 30px;
-    font-family: "Kode Mono", serif;
-}
-.footer-logo p{
-    font-size: 30px !important;
+.footer h1, li{
     color: white;
-    font-family: "Kode Mono", serif;
 }
-
-.footer-inner p {
-    font-size: 20px;
-    
+.footer-text i {
+    font-size: 22px;
+}
+.footer-text h1{
+    font-size: 25px;
+}
+.footer-text p{
+    font-size: 18px;
+}
+.footer-text ul {
+    width: 100%;
+    padding: 0;
+}
+.footer-text ul li{
+    list-style: none;
+    padding: 0;
 }

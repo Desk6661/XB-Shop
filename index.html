@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>XB Shop - Gaming Controllers Shop</title>
+    <link rel="shortcut icon" href="images/consoles-xbox-48.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="responsive.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
@@ -29,10 +30,10 @@
 
                 <div class="d-flex align-items-center">
                     <ul class="d-flex my-auto gap-3 nav-ul">
-                        <li><a href="#">Products</a></li>
-                        <li><a href="#">Cetegories</a></li>
-                        <li><a href="#">Trending</a></li>
-                        <li><a href="#">Popular</a></li>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#cetegories">Cetegories</a></li>
+                        <li><a href="#guideline">Guideline</a></li>
+                        <li><a href="#shop">Shop</a></li>
                     </ul>
                 </div>
 
@@ -44,8 +45,8 @@
             </nav>
 
             <!-- FIRST SECTION -->
-            <div class="first-section py-5">
-                <div class="row d-flex gap-5 gap-md-0">
+            <div id="home" class="d-flex align-items-center first-section py-5">
+                <div class="row d-flex gap-5 gap-md-0" style="width: 100%; height: 100%;">
                     <div class="col-12 col-md-6 d-flex flex-column gap-3">
                         <h1>Keep up<br>with the era</h1>
                         <p>Chnage your gaming exprience to the next level with our product</p>
@@ -67,7 +68,7 @@
             </div>
 
             <!-- SECOND SECTION -->
-            <div class="second-section py-5">
+            <div id="cetegories" class="second-section py-5">
                 <div class="row d-flex gap-5 gap-md-0">
                     <div class="col-12 col-md-6 order-2 order-md-1 s-left-con">
                         <div class="s-left px-3">
@@ -97,7 +98,7 @@
             </div>
 
             <!-- thrd section -->
-            <div class="third-section py-5">
+            <div id="guideline" class="third-section py-5">
                 <h1>Using guideline for user</h1>
                 <div class="row">
                     <div class="col-12 d-flex align-items-center justify-content-center py-3">
@@ -111,7 +112,7 @@
         </div>
 
         <!-- Fourth section -->
-        <div class="fourth-section py-5">
+        <div id="shop" class="fourth-section py-5">
             
                 <div class="row">
                     <div class="col-12 p-5 fourth-con">
@@ -126,54 +127,59 @@
                     </div>
                 </div>
             
-            <div class="fourth-img-con">
+            <div class="fourth-img-con py-5">
                 <img src="images/console-removebg-preview.png" alt="">
                 <img src="images/console-removebg-preview.png" alt="">
             </div>
             
         </div>
 
-        <div class="footer d-flex align-items-end">
-            <div class="container footer-box">
-                <hr>
-                <div class="row d-flex align-items-end footer-inner">
-                    <div class="col-10 col-md-4 d-flex flex-column gap-3 py-3">
-                        <div class="d-flex align-items-center gap-1 footer-logo">
-                            <h1 class="d-flex align-items-center m-0 h-100">XB</h1>
-                            <p class="d-flex align-items-center m-0 h-100">Shop</p>
-                        </div>
-                        <p class="text-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos neque corrupti sequi et dolorum hic?</p>
-                        <div class="d-flex align-items-center gap-4 text-light" style="font-size: 24px;">
-                            <a style="color: white;" href="https://x.com/?lang=en&mx=2" target="_blank"><i class="fa-brands fa-twitter"></i></a>
-                            <a style="color: white;" href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-                            <a style="color: white;" href="https://www.instagram.com/desk_06/profilecard/?igsh=ZW92YWE2cTFtdGRn" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-                            <a style="color: white;" href="https://github.com/Desk6661" target="_blank"><i class="fa-brands fa-github"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-md-2"></div>
-                    <div class="col-4 col-md-2 d-flex flex-column gap-2 text-light footer-link-con">
-                        <h4 style="font-weight: 600;">Company</h4>
-                        <p>About</p>
-                        <p>Features</p>
-                        <p>Works</p>
-                        <p>Career</p>
-                    </div>
-                    <div class="col-4 col-md-2 d-flex flex-column text-light footer-link-con">
-                        <h4 style="font-weight: 600;">Help</h4>
-                        <p>Customor Support</p>
-                        <p>Delivery Details</p>
-                        <p>Terms & Conditions</p>
-                        <p>Privacy Policy</p>
-                    </div>
-                    <div class="col-4 col-md-2 d-flex flex-column text-light footer-link-con">
-                        <h4 style="font-weight: 600;">Resources</h4>
-                        <p>Find your size & shape</p>
-                        <p>Handling & care</p>
-                        <p>Face shapes</p>
-                        <p>Blogs</p>
+        <div class="footer mt-5">
+
+            <div class="row d-flex align-items-center footer-con px-5">
+                <div class="col-12 d-flex align-items-center justify-content-center footer-top">
+                    <div></div>
+                    <button><span>XB</span>Shop</button>
+                </div>
+                <div class="col-12 col-md-3 d-flex flex-column gap-3 ps-0 footer-text text-light">
+                    <h1>About</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae tenetur dolore ipsum</p>
+                    <div class="d-flex gap-3 footer-icons">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-solid fa-bell"></i>
                     </div>
                 </div>
+                <div class="col-10 col-md-3 d-flex flex-column gap-3 ps-0 ps-md-5 pt-5 pt-md-0 footer-text text-light">
+                    <h1>Service</h1>
+                    <ul class="d-flex flex-column gap-3">
+                        <li>Track your order</li>
+                        <li>Shipping</li>
+                        <li>Return & exchanges</li>
+                        <li>Gift card</li>
+                    </ul>
+                </div>
+                <div class="col-10 col-md-3 d-flex flex-column gap-3 ps-0 ps-md-5 footer-text text-light">
+                    <h1>Resources</h1>
+                    <ul class="d-flex flex-column gap-3">
+                        <li>Find your size</li>
+                        <li>Handling & care</li>
+                        <li>Face shapes</li>
+                        <li>Blogs</li>
+                    </ul>
+                </div>
+                <div class="col-10 col-md-3 d-flex flex-column gap-3 ps-0 ps-md-5 footer-text text-light">
+                    <h1>Support</h1>
+                    <ul class="d-flex flex-column gap-3">
+                        <li>Term and service</li>
+                        <li>Privacy policy</li>
+                        <li>Contact us</li>
+                        <li>FAQs</li>
+                    </ul>
+                </div>
             </div>
+            
         </div>
 
 
